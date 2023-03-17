@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+/*body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho {
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+}*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.cabecalho {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+}
+
+.cabecalho h1{
+    font-size: 50px;
+}
+
+.topnav { /* "caixa" abaixo do cabeçalho */
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.topnav a { /* configurações sobre a "caixa" */
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover { /* quando passa o mouse por cima da "caixa" */
+    background-color: rgb(145, 31, 31);
+    color: white;
+    border-bottom: rgb(107, 10, 16)solid;
+}
